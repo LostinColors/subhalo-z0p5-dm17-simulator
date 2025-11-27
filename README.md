@@ -2,15 +2,6 @@
 
 This repository contains a numerical simulation of particle evolution inside the dark-matter subhalo **DM-17 at redshift z = 0.5**. The project includes both Python and Julia implementations of the same physical model, using a shared text file for initial particle data.
 
-## Contents
-
-```
-simulate.py
-simulate.jl
-initial_data.txt
-README.md
-```
-
 ## Description
 
 The simulation loads particle masses, positions, and velocities from `initial_data.txt`, computes gravitational interactions, and evolves the system forward in time.
