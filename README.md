@@ -4,7 +4,7 @@ This repository contains a numerical simulation of particle evolution inside the
 
 ## Description
 
-The simulation loads particle masses, positions, and velocities from `initial_data.txt`, computes gravitational interactions, and evolves the system forward in time.
+The simulation loads particle positions and velocities from `initial_data.txt`.
 Two implementations are provided:
 
 * **Python (`simulate.py`)** — uses NumPy and Matplotlib
@@ -33,11 +33,11 @@ Both scripts automatically read `initial_data.txt` from the repository directory
 The expected structure of `initial_data.txt` depends on the code, but a typical format is:
 
 ```
-m   x   y   z   vx   vy   vz
+x   y   z   vx   vy   vz
 ...
 ```
 
-Each row represents a particle with mass and initial phase-space coordinates.
+Each row represents a particle with initial phase-space coordinates.
 
 ## Requirements
 
