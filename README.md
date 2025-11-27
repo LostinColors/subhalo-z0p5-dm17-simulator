@@ -70,13 +70,3 @@ Install Plots with:
 ```julia
 add Plots
 ```
-
-## License
-
-MIT License.
-
-## Author
-
-Nima Zahmatkesh
-
----
